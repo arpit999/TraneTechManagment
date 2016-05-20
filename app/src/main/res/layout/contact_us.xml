@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrf"
+    android:layout_gravity="center"
+     android:background="@drawable/background_trnetech"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:id="@+id/scre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="25dp" >
+
+        <RelativeLayout
+            android:id="@+id/rltyu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView1"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="INDIA - Kerala  Tranetech Software Solutions"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_kerala_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView2"
+                android:layout_centerHorizontal="true"
+                android:text="+91 484 4061745"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_UAE_email1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView4"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:text="info@tranetech.com"
+                android:textSize="14sp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/tv_UAE_No2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_UAE_email2"
+                android:layout_centerHorizontal="true"
+                android:text="+971 50 111 3694"
+                android:textSize="14sp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/traklogo" />
+
+            <TextView
+                android:id="@+id/tv_infocity_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView3"
+                android:layout_centerHorizontal="true"
+                android:text="zalakpatel@tranetech.com"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_infocity_email"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="42dp"
+                android:gravity="center"
+                android:text="UNITED ARAB EMIRATES P.O. Box # 72973, Abu Dhabi, UAE."
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_UAE_No1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_UAE_email1"
+                android:layout_centerHorizontal="true"
+                android:text="+971 52 811 1627"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_UAE_email2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_UAE_No1"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:text="www.tranetech.com"
+                android:textSize="14sp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_below="@+id/tv_kerala_num"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:text="INDIA-Gujarat Tranetech Software Solutions"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

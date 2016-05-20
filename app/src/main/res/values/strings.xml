@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tranetech Mis</string>
+    <string name="action_settings">Settings</string>
+    <string name="todo">TODO</string>
+    <string name="username">User name</string>
+    <string name="password">Password</string>
+    <string name="regETreenterpassword">Retype password</string>
+    <string name="full_name">Full name</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="Dob">Date of Birth(DD/MM/YYYY)</string>
+    <string name="_91">+91</string>
+    <string name="i_accept_term_amp_condition">I accept terms and conditions.</string>
+    <string name="register">Register</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="submit_button">Submit button</string>
+    <string name="upload_picture">Upload picture</string>
+    <string name="about_us_details">About us details,– This page will have a listing of all of the various ‘chains’ that are currently growing.  There is a chain link graphic and you can actually click on each link and see exactly what the deed was done ,who did it, when, where, if there was a picture uploaded, it will be here as well.  There is also the person’s ID # (each person that joins TRAK gets assigned the next numerically sequential number.  That will be their ID.  Each link that has completed a deed has a closed link.   Someone that has not done their ‘deed’ has an open or broken link that shows, not only on the chain, but also on their personal ID page.  I want them to see a broken link on the app telling them that their deed needs to be completed still.  I want there to be a notice of some sort, almost like a ‘message’ of sorts showing a red 1 on their icon so it reminds them that they need to do their part.  Then when they open the app, there is a chain with an unclosed or broken link with a message saying ‘It’s your turn to do your part.  Don’t let us down”  something like that, so the peer pressure issue comes into play too.</string>
+
+    <string-array name="postion">
+        <item>Android Developer</item>
+        <item>Jr Programmer</item>
+        <item>Php Developer</item>
+        <item>Ios Developer</item>
+    </string-array>
+    <string-array name="location">
+        <item>Gandhinagar</item>
+        <item>Cochain</item>
+        <item>UAE</item>
+    </string-array>
+    <string-array name="user_type">
+        <item>Employee</item>
+        <item>Project Manager</item>
+        <item>Office Incharge</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="document_type">
+        <item>DOC TYPE</item>
+        <item>Passport</item>
+        <item>Driving Licence</item>
+        <item>Voter ID</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="Designing">
+        <item>Algorithm Design</item>
+        <item>Database Design</item>
+        <item>Backend Coding</item>
+        <item>Frontend Coding</item>
+        <item>Testing</item>
+        <item>Others</item>
+    </string-array>
+     <string-array name="blood_groups">
+        <item>o+</item>
+        <item>o-</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+         <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Profile</item>
+        <item>Attendance</item>
+        <item>Project</item>
+        <item>Report</item>
+        <item>Leave</item>
+        <item>Log out</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/homemain</item>
+        <item>@drawable/profile</item>
+        <item>@drawable/attendance</item>
+        <item>@drawable/project</item>
+        <item>@drawable/report</item>
+        <item>@drawable/leave</item>
+        <item>@drawable/log_off</item>
+    </array>
+
+    <string name="ok">OK</string>
+    <string name="address">Please Enter Address</string>
+    <string name="large_text">TRAK</string>
+    <string name="true_random_acts_of_kindness">TRUE RANDOM ACTS OF KINDNESS</string>
+    <string name="upload">Upload</string>
+    <string name="write_caption">Write caption</string>
+    <string name="upload_your_photo">Upload Your photo</string>
+    <string name="select_image">Select Image</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="click_to_upload_file">Click To Upload File</string>
+    <string name="image">Image</string>
+    <string name="doc">Edit Doc_Id</string>
+    <string name="acco">Edit Acc_No</string>
+    <string name="spinner">Usertype</string>
+    <string name="dob">Data_of_Birth</string>
+    <string name="address1">Address</string>
+    <string name="submit">Submit</string>
+    <string name="phone_number">Edit Phone_Number</string>
+    <string name="pcname">Edit PC_Name</string>
+    <string name="pcpassword">Edit PC_Password</string>
+
+    <color name="blue_ice">#389DCC</color>
+
+    <string name="save">Save</string>
+    <string name="emailid">Email id</string>
+    <string name="phone">Contact no</string>
+    <string name="usertype">Usertype</string>
+    <string name="position">Position</string>
+    <string name="location">Location</string>
+    <string name="gender">Gender</string>
+    <string name="edit">Edit</string>
+    <string name="pcname1">PC Name</string>
+    <string name="pcpass">PC Password</string>
+    <string name="bg">Blood Group</string>
+    <string name="pcpass2">PC_Password</string>
+    <string name="document">Doc_ID</string>
+    <string name="ac">Acc_ID</string>
+    <string name="joindate">Join_Date</string>
+    <string name="doc_id">Doc_ID</string>
+    <string name="acc_no">Account_No</string>
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>

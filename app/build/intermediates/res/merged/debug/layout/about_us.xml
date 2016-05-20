@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_trnetech" >
+
+    <ScrollView
+        android:id="@+id/sdfg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ImageView1" >
+
+        <TextView
+            android:id="@+id/tv_about_us"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Tranetech, a new gen IT player, explores the possibilities of technology by making the most of existing resources to create newer opportunities.Constantly striving to apply fresher thoughts to create simpler, more valuable and better experiences , together with technology, whilst continuously improving the way our clients work. Tranetech&apos;s team of experts has the knowledge and technical expertise to use technology to achieve specific business objectives.The company is committed to present our clients with innovative, tailored and cost effective solutions of exceptional value andtechnical quality." />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/ImageView1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/logo_large" />
+
+</RelativeLayout>

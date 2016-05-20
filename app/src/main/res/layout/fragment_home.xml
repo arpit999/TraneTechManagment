@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_trnetech" >
+
+    <ImageView
+        android:id="@+id/img_1"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <Button
+            android:id="@+id/ivabtus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:background="@color/btn_effects"
+            android:text="About Us"
+           android:textColor="@android:color/holo_blue_dark"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/ivfdbck"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:background="@color/btn_effects"
+            android:text="Feedback"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/ivcntus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:background="@color/btn_effects"
+            android:text="Contact Us"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/ivhlp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:background="@color/btn_effects"
+            android:text="Help"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scr_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/LinearLayout1"
+        android:layout_below="@+id/img_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="At Tranetech ,we explore how technology can assist in making the most of existing resources and for creating new opportunities.We constantly strive to apply new thoughts to create simpler, more valuable and better experiences with technology,whilst continuously improving the way our clients work.We offer feature rich end-to-end enterprise solutions including infrastructure management, application development, BPO, consulting and several software products, to a global clientele.Tranetech&apos;s team of experts have the knowledge and technical expertise to use technology to meet your specific business objectives.We are committed to offering our clients with innovative, customized, cost effective solutions having oustanding value and technical excellence."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="14sp" />
+    </ScrollView>
+
+</RelativeLayout>

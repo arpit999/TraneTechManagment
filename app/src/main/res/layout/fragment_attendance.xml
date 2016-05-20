@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_trnetech"
+    tools:context="com.tranetech.slidingmenu.AttendanceFragment" >
+
+    <ScrollView
+        android:id="@+id/scroll_attendance"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/rlt"
+            android:layout_width="match_parent"
+            android:layout_height="544dp"
+            android:layout_margin="10dp" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignLeft="@+id/et_Date"
+                android:layout_alignRight="@+id/et_Date"
+                android:layout_below="@+id/et_Date"
+                android:layout_marginTop="30dp"
+                android:background="@color/list_background"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:paddingStart="10dp" >
+
+                <TextView
+                    android:id="@+id/tv_intime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="In time"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FAFAFA" />
+
+                <EditText
+                    android:id="@+id/et_InTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edittext_style"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:gravity="center"
+                    android:inputType="time"
+                    android:padding="3dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/linearLayout1"
+                android:layout_alignRight="@+id/linearLayout1"
+                android:layout_below="@+id/linearLayout1"
+                android:layout_marginTop="78dp"
+                android:background="@color/list_background"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/tv_Address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Out time"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FAFAFA" />
+
+                <EditText
+                    android:id="@+id/et_OutTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edittext_style"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:gravity="center"
+                    android:inputType="time"
+                    android:padding="3dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_InTime"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/linearLayout1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:background="@color/btn_effects"
+                android:text="Submit"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_outTime"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@+id/btn_InTime"
+                android:layout_below="@+id/linearLayout2"
+                android:layout_marginTop="19dp"
+                android:background="@color/btn_effects"
+                android:text="Submit"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/et_Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/username_atd"
+                android:layout_marginTop="34dp"
+                android:background="@drawable/edittext_style"
+                android:editable="false"
+                android:ems="10"
+                android:gravity="center"
+                android:padding="5dp" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/username_atd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="User Name"
+                android:textColor="@color/blue_ice"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_dsp_atndce"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@+id/btn_outTime"
+                android:layout_below="@+id/btn_outTime"
+                android:background="@color/btn_effects"
+                android:clickable="true"
+                android:text="View Attendence"
+                android:gravity="center"
+                android:layout_marginTop="25dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#61A85D"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+        
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_trnetech"
+    android:gravity="center" >
+
+    <ScrollView
+        android:id="@+id/scr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="32dp"
+        tools:ignore="UselessParent" >
+
+        <RelativeLayout
+            android:id="@+id/rl2"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            tools:ignore="ScrollViewSize" >
+
+            <Button
+                android:id="@+id/btn_feedback"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/et_comments"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="31dp"
+                android:background="@color/btn_effects"
+                android:text="Feedback"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/et_firstname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edittext_style"
+                android:ems="10"
+                android:hint="First Name"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                tools:ignore="HardcodedText" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/et_comments"
+                android:layout_below="@+id/et_firstname"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_style"
+                android:ems="10"
+                android:hint="Address"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/et_ussermail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_address"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_style"
+                android:ems="10"
+                android:hint="Usser Mail"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/et_comments"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_alignLeft="@+id/et_ussermail"
+                android:layout_below="@+id/et_ussermail"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/edittext_style"
+                android:ems="10"
+                android:hint="Comments"
+                android:inputType="textShortMessage|textMultiLine"
+                android:padding="5dp"
+                android:textDirection="inherit"
+                tools:ignore="HardcodedText" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

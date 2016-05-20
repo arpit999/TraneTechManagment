@@ -1,0 +1,145 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:2:1-98:12
+	package
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:3:5-47
+		INJECTED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:7:5-10:41
+	android:maxSdkVersion
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:8:9-35
+	android:targetSdkVersion
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:9:9-35
+		INJECTED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:12:5-13:23
+	android:name
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:16:22-77
+uses-permission#android.permission.SET_TIME_ZONE
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:17:5-72
+	android:name
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:17:22-69
+application
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:19:5-96:19
+	android:label
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:22:9-41
+	android:allowBackup
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:20:9-35
+	android:icon
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:21:9-42
+	android:theme
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:23:9-40
+activity#com.tranetech.tranetechmanagment.SplashActivity
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:24:9-32:20
+	android:screenOrientation
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:26:13-49
+	android:name
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:25:13-75
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:30:27-74
+activity#com.tranetech.tranetechmanagment.LoginDetails
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:33:9-36:20
+	android:screenOrientation
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:35:13-49
+	android:name
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:34:13-40
+activity#com.tranetech.tranetechmanagment.Register1
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:37:9-44:20
+	android:screenOrientation
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:40:13-49
+	android:label
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:39:13-41
+	android:name
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:38:13-37
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:41:13-43:81
+	android:value
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:43:17-78
+	android:name
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:42:17-63
+activity#com.tranetech.slidingmenu.MainActivity
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:45:9-46:20
+	android:name
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:45:19-72
+activity#com.tranetech.tranetechmanagment.Edit_profile
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:47:9-51:20
+	android:name
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:47:19-46
+activity#com.tranetech.tranetechmanagment.Aboutus
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:52:9-56:20
+	android:name
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:52:19-74
+activity#com.tranetech.tranetechmanagment.Contactus
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:57:9-61:20
+	android:name
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:57:19-76
+activity#com.tranetech.slidingmenu.HomeFragment
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:62:9-63:20
+	android:name
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:62:19-72
+activity#com.tranetech.tranetechmanagment.Feedback
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:64:9-68:20
+	android:name
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:64:19-42
+activity#com.tranetech.tranetechmanagment.Help
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:69:9-73:20
+	android:name
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:69:19-38
+activity#com.tranetech.tranetechmanagment.Leave_Activity
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:74:9-75:20
+	android:name
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:74:19-48
+activity#com.tranetech.tranetechmanagment.ImageUpload
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:76:9-77:20
+	android:name
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:76:19-45
+activity#com.tranetech.tranetechmanagment.Forgotpassword
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:78:9-82:20
+	android:name
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:78:19-48
+activity#com.tranetech.tranetechmanagment.ChangePassword
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:83:9-87:20
+	android:name
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:83:19-48
+activity#com.tranetech.tranetechmanagment.ViewAttendence
+ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:88:9-95:20
+	android:screenOrientation
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:90:13-49
+	android:name
+		ADDED from D:\Company Projects\Shoppers\23-4-2016 change packagename\TraneTechManagment\app\src\main\AndroidManifest.xml:89:13-42

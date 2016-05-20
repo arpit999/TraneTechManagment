@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_trnetech" >
+
+    <ScrollView
+        android:id="@+id/scr1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/footer2"
+        android:layout_marginTop="10dp"
+        android:fillViewport="true"
+        android:foregroundGravity="top"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        android:splitMotionEvents="true"
+        tools:ignore="UselessParent,UnknownIdInLayout" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="509dp"
+            android:padding="15dp" >
+
+            <EditText
+                android:id="@+id/EDTUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="2dp"
+                android:ems="10"
+                android:hint="User name"
+                android:inputType="textCapSentences"
+                android:singleLine="true"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/EdtDob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/EDTUserName"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@+id/img_dob"
+                android:ems="10"
+                android:editable="false"
+                android:inputType="none"
+                android:hint="Date of birth(yyyy-mm-dd)"
+                android:singleLine="true"
+                android:textSize="14sp"
+                tools:ignore="Deprecated" />
+
+            <EditText
+                android:id="@+id/regETpassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/EdtDob"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/ETmobilenumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/Edtaddress"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/spinner_usertype"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="@string/mobile_number"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/Edtaddress"
+                style="@style/styleName1"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/ETmobilenumber"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="@string/address"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/regETreenterpassword"
+                style="@style/styleName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/regETpassword"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="@string/regETreenterpassword"
+                android:inputType="text"
+                android:password="true"
+                android:singleLine="true"
+                android:textSize="14sp"
+                tools:ignore="Deprecated" />
+
+            <EditText
+                android:id="@+id/regETemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/regETreenterpassword"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="@string/email"
+                android:singleLine="true"
+                android:textSize="14sp"
+                tools:ignore="TextFields" />
+
+            <LinearLayout
+                android:id="@+id/lr"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/btnRegister"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvtraklogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/checkBox1"
+                android:layout_alignBottom="@+id/checkBox1"
+                android:layout_below="@+id/e"
+                android:layout_centerHorizontal="true"
+                android:text="@string/i_accept_term_amp_condition"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnRegister"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/checkBox1"
+                android:layout_centerHorizontal="true"
+                android:background="@color/btn_effects"
+                android:text="Submit"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Edtaddress"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@+id/tvtraklogo" />
+
+            <ImageButton
+                android:id="@+id/img_dob"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignRight="@+id/EDTUserName"
+                android:layout_below="@+id/EDTUserName"
+                android:background="@drawable/calendarblack"
+                android:contentDescription="TODO"
+                android:cropToPadding="true"
+                tools:ignore="HardcodedText,ContentDescription" />
+
+            <Spinner
+                android:id="@+id/spinner_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/btnRegister"
+                android:layout_below="@+id/spinner_doc_type"
+                android:entries="@array/location" />
+
+            <Spinner
+                android:id="@+id/spinner_usertype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/spinner_position"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/spinner_position"
+                android:entries="@array/user_type" />
+
+            <EditText
+                android:id="@+id/EdtBanknumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/regETemail"
+                android:layout_alignRight="@+id/regETemail"
+                android:layout_below="@+id/regETemail"
+                android:ems="10"
+                android:hint="Bank A/c Number"
+                android:inputType="number"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
+
+            <Spinner
+                android:id="@+id/spin_Bloodgroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/spinner_location"
+                android:layout_alignRight="@+id/EdtBanknumber"
+                android:layout_below="@+id/EdtBanknumber"
+                android:entries="@array/blood_groups"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/EdtJoindate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/spin_Bloodgroup"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@+id/img_dob"
+                android:editable="false"
+                android:ems="10"
+                android:hint="Date of Joining(yyyy-mm-dd)"
+                android:singleLine="true"
+                android:inputType="none"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText,Deprecated" />
+
+            <EditText
+                android:id="@+id/EDTPcName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/EdtJoindate"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="Pc Name"
+                android:singleLine="true"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/EDTPcPassword"
+                style="@style/styleName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/EDTPcName"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="Pc Password"
+                android:singleLine="true"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/EDTdocument_ID_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/btnRegister"
+                android:layout_below="@+id/EDTPcPassword"
+                android:ems="10"
+                android:hint="Document id number"
+                android:singleLine="true"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
+
+            <Spinner
+                android:id="@+id/spinner_doc_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/EDTdocument_ID_number"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/EDTdocument_ID_number"
+                android:layout_toRightOf="@+id/btnRegister"
+                android:entries="@array/document_type"
+                android:prompt="@string/_91" />
+
+            <ImageButton
+                android:id="@+id/img_doj"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/spin_Bloodgroup"
+                android:layout_toRightOf="@+id/EdtJoindate"
+                android:background="@drawable/calendarblack"
+                android:contentDescription="TODO"
+                android:cropToPadding="true"
+                tools:ignore="HardcodedText,ContentDescription,DuplicateIds" />
+
+            <Spinner
+                android:id="@+id/spinner_position"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/spinner_location"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/spinner_location"
+                android:entries="@array/postion" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/spinner_location"
+                android:layout_alignLeft="@+id/EDTdocument_ID_number"
+                android:layout_below="@+id/EDTdocument_ID_number"
+                android:layout_toLeftOf="@+id/spinner_location"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="Location"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/spinner_position"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignRight="@+id/textView1"
+                android:layout_below="@+id/textView1"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="Position"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/spinner_usertype"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_alignRight="@+id/textView2"
+                android:layout_below="@+id/textView2"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="User Type"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/spin_Bloodgroup"
+                android:layout_alignLeft="@+id/EdtJoindate"
+                android:layout_alignTop="@+id/spin_Bloodgroup"
+                android:layout_toLeftOf="@+id/tvtraklogo"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="Blood Group"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

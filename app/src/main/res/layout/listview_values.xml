@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:id="@+id/t_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="top"
+        android:text="Date"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#2D1BD1"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:id="@+id/lrte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/t_date"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:textColor="#2D1BD1" >
+
+        <TextView
+            android:id="@+id/txt_intime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:text="In time"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#F57F8F"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/txt_outtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Out Time"
+            android:layout_marginRight="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#16CC71"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lrto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lrte"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/lrte"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="In Time"
+            android:textColor="@color/blue_ice"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Out Time"
+             android:textColor="@color/blue_ice"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</RelativeLayout>
